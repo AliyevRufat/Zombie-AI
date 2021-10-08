@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SteeringBehaviors.cpp" />
+    <ClCompile Include="EBehaviorTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="EBehaviorTree.h">
+      <Filter>AddedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="EBlackboard.h">
+      <Filter>AddedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="EIApp.h">
+      <Filter>AddedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="IDecisionMaking.h">
+      <Filter>AddedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviors.h" />
+    <ClInclude Include="Behaviors.h">
+      <Filter>AddedClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AddedClasses">
+      <UniqueIdentifier>{ba0ab3e5-d67c-4687-8f47-9f54fb897eea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
